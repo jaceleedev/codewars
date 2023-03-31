@@ -6,5 +6,5 @@ function bloodAlcoholContent(drinks, weight, sex, time) {
   const A = drinks.ounces * drinks.abv
   const BAC = ((A * 5.14) / weight) * r - 0.015 * time
 
-  return Math.max(0, BAC)
+  return Number(Math.max(0, BAC).toFixed(4))
 }
