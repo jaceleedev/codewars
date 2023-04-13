@@ -2,7 +2,6 @@
 // https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/javascript
 
 const countSheep = function (num) {
-  //your code here
   let answer = ''
 
   for (let i = 1; i <= num; ++i) {
